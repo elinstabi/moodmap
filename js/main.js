@@ -90,33 +90,6 @@ var url = "https://free-ec2.scraperwiki.com/bniepoa/e1fc798cefed4f1/sql/?q=selec
         }
     }
 
-$('#upprymdbutton').click(function(){
-
-$("#tweet_feedback").empty();
-
-
-var url = "https://free-ec2.scraperwiki.com/fjcd5da/990c960250d8438/sql/?q=select%20%0A%20%20%20%20media%0Afrom%20tweets%0A--%20where%20created_at%20%3E%20%0Aorder%20by%20tweet_url%0Alimit%20200"
-
-
- $.getJSON(url, whatever);
-
- });
-
-
-
-  function whatever(data) {
-    // The variable "data" represents the information we got back.
-        //console.log(data);
-        //console.log(data[1].text);
-        
-        var str = "";
-
-        for ( var i = 0; i < data.length; i++ ) {
-            str = "<div class='row'><img src='"+ data[i].media +"'></div>";
-            $("#tweet_feedback").append(str);
-
-        }
-    }
 
 
 }); 
@@ -146,5 +119,42 @@ $("#images").empty();
  $.getJSON(url, lolImages);
 
 });
+
+
+
+
+
+
+
+
+
+$('#upprymdbutton').click(function(){
+
+$("#tweet_feedback").empty();
+
+
+var url = "https://free-ec2.scraperwiki.com/fjcd5da/990c960250d8438/sql/?q=select%20%0A%20%20%20%20media%0Afrom%20tweets%0A--%20where%20created_at%20%3E%20%0Aorder%20by%20tweet_url%0Alimit%20200"
+
+
+ $.getJSON(url, whatever);
+
+ });
+
+
+
+  function whatever(data) {
+    // The variable "data" represents the information we got back.
+        //console.log(data);
+        //console.log(data[1].text);
+        
+        var str = "";
+
+        for ( var i = 0; i < data.length; i++ ) {
+            str = "<div class='row'><img src='"+ data[i].media +"'></div>";
+            $("#tweet_feedback").append(str);
+
+        }
+    }
+
 */
 
