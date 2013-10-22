@@ -1,0 +1,810 @@
+body {
+	background-image: url("http://www.wallseemly.com/wallpapers/2013/04/Glare-dark-background-circles-spots-900x1440.jpg"); 
+
+	background-attachment: fixed;
+	font-family: 'Cabin Sketch', cursive;
+  font-size: 15px;
+  color:black;
+}
+
+
+
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    line-height: 1em;
+}
+.inset-text {
+  color: rgba(204,0,0,0.8);
+  text-shadow: 1px 4px 6px #f66, 0 0 0 #000, 1px 4px 6px #f66
+}
+
+body {
+  background: #f66;
+}
+
+
+
+
+
+
+h2 {
+
+	
+	font-size: 26px; 
+
+	font-family: 'Cabin Sketch', cursive;
+	color:#96E2C9;  
+
+}
+
+h3 {
+
+
+  font-size: 18px; 
+
+  font-family: 'Cabin Sketch', cursive;
+  color:#5BB89D; 
+
+}
+
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+
+.invisible {
+
+	margin-top:100px;
+	margin-bottom:130px;
+}
+
+.invisible2 {
+
+  margin-top:20px;
+  margin-bottom:22px;
+}
+
+
+#container2 {
+  position: relative;
+
+
+}
+
+#lovelyfoot
+{
+ background: white;
+ filter:alpha(opacity=50); /* IE */
+ -moz-opacity:0.5; /* Mozilla */
+ opacity: 0.5; /* CSS3 */
+ position: absolute;
+ top: 0; left: 0;
+ height: 100%; width:100%;
+ margin-top: -20px;
+ padding:70px;
+
+
+ border-top: 1px solid #96E2C9;
+
+margin-right:-15px;
+
+
+}
+
+#text2 {
+
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+}
+
+
+.something {
+  background: none;
+  color:black;
+}
+
+/*dropdown*/
+
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  background.color: black;
+  white-space: nowrap;
+}
+
+
+
+/*dropdown länkar nere*/
+.navbar-default .open .dropdown-menu > li > a:hover,
+.navbar-default .open .dropdown-menu > li > a:focus {
+  color: #96E2C9;
+  background-color: transparent;
+}
+
+
+.navbar {
+
+	padding left: 50px;
+
+	background-color: #96E2C9;
+	border-bottom: 2px solid #75DDBB;
+	font-size: 16px; 
+}
+
+
+
+.navbar-header {
+	margin-left:30px;
+
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+
+
+.navbar-default .navbar-toggle {
+
+  border:2px solid white;
+  height: 47px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #75DDBB;
+}
+
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: white;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: yellow;
+  background-color: #96E2C9;
+}
+/*navbaren som fälls ner då mobil*/
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+  }
+
+
+
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: yellow;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: yellow;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: green;
+    background-color: transparent;
+  }
+}
+
+
+
+/*hem länken navbar*/
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+  color: white;
+}
+
+/*text innan hover*/
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: yellow;
+  background-color: transparent;
+}
+
+
+
+
+
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 32px;
+  height: 1px;
+  border-radius: 1px;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+
+
+
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: yellow;
+  border-bottom-color: yellow;
+}
+
+
+
+
+
+
+
+.inledning {
+
+ border-radius: 4px;
+ border: 2px solid #96E2C9;
+ background-color: white;
+ margin-left:5px;
+ margin-right:5px;
+ padding-left:30px;
+ padding-right:20px;
+
+}
+
+
+
+.inledning2 {
+
+  border: 1px solid transparent;
+
+  border-collapse:collapse;
+
+
+}
+
+
+
+
+.inledning3 {
+
+
+ border-top: 2px solid #96E2C9;
+ border-bottom: 2px solid #96E2C9;
+ background-color: white;
+
+ padding-left:20px;
+ padding-right:20px;
+
+ font-family: 'Cabin Sketch', cursive;
+ font-size: 14px;
+ color:black;
+ margin-right:  -15px;
+
+
+}
+
+
+.inledning4 {
+
+
+ border: 2px solid #96E2C9;
+
+ background-color: white;
+
+ padding-left:20px;
+ padding-right:-10px;
+ padding-top: 15px;
+
+ font-family: 'Cabin Sketch', cursive;
+ font-size: 14px;
+ color:black;
+ margin-right:  -20px;
+ margin-left:  -2px;
+
+}
+
+
+
+.inledning10 {
+
+
+ border: 2px solid #96E2C9;
+
+ background-color: white;
+
+ padding-left:25px;
+ padding-right: 35px;
+ padding-top: 15px;
+
+ font-family: 'Cabin Sketch', cursive;
+ font-size: 14px;
+ color:black;
+ margin-right:  -20px;
+ margin-left:  -2px;
+
+}
+
+
+
+.inledning5 {
+
+
+ border: 2px solid #96E2C9;
+
+ background-color: white;
+
+ padding-left:20px;
+ padding-right:10px;
+
+ font-family: 'Cabin Sketch', cursive;
+ font-size: 14px;
+ color:black;
+ margin-right:  -20px;
+ margin-left:  -2px;
+
+}
+
+
+
+#mingelmaten {
+	border:2px solid #96E2C9;
+	margin-left:40px;
+	margin-right: 40px;
+	margin-bottom:20px;
+
+
+
+
+
+
+}
+
+td img {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+
+  border:2px solid #96E2C9;
+
+}
+
+
+td {
+	padding-left:30px; 
+	padding-right:30px; 
+	padding-bottom:10px;"
+
+}
+
+
+#spinner img {
+
+  width: 100%;
+  border: 1px solid #ccc;
+  background: rgba(255,255,255,0.8);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+
+
+
+
+}
+
+
+
+#spinner div {
+  position: absolute;
+  width: 270px;
+  height: 270px;
+  border:2px solid #96E2C9;
+  background: rgba(255,255,255,0.0);
+  box-shadow: inset 0 0 0px rgba(0,0,0,0.0);
+  text-align: center;
+  line-height: 270px;
+  font-size: 20px;
+
+
+}
+
+#spinner .face1 { -webkit-transform: translateZ(135px);                                }
+#spinner .face2 { -webkit-transform: rotateY(90deg) translateZ(135px);                 }
+#spinner .face3 { -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(135px);  }
+#spinner .face4 { -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(135px); }
+#spinner .face5 { -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(135px); }
+#spinner .face6 { -webkit-transform: rotateX(-90deg) translateZ(135px);                }
+
+
+
+
+@-webkit-keyframes spincube {
+  from,to  {                                                    }
+  16%      { -webkit-transform: rotateY(-90deg);                }
+  33%      { -webkit-transform: rotateY(-90deg) rotateZ(90deg); }
+  50%      { -webkit-transform: rotateY(180deg) rotateZ(90deg); }
+  66%      { -webkit-transform: rotateY(90deg) rotateX(90deg);  }
+  83%      { -webkit-transform: rotateX(90deg);                 }
+}
+
+#spinner {
+  -webkit-animation-name: spincube;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 18s;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform-origin: 135px 135px 0;
+}
+
+
+
+#spinner .face1 { -moz-transform: translateZ(135px);                                }
+#spinner .face2 { -moz-transform: rotateY(90deg) translateZ(135px);                 }
+#spinner .face3 { -moz-transform: rotateY(90deg) rotateX(90deg) translateZ(135px);  }
+#spinner .face4 { -moz-transform: rotateY(180deg) rotateZ(90deg) translateZ(135px); }
+#spinner .face5 { -moz-transform: rotateY(-90deg) rotateZ(90deg) translateZ(135px); }
+#spinner .face6 { -moz-transform: rotateX(-90deg) translateZ(135px);                }
+
+
+
+
+@-moz-keyframes spincube {
+  from,to  {                                                    }
+  16%      { -moz-transform: rotateY(-90deg);                }
+  33%      { -moz-transform: rotateY(-90deg) rotateZ(90deg); }
+  50%      { -moz-transform: rotateY(180deg) rotateZ(90deg); }
+  66%      { -moz-transform: rotateY(90deg) rotateX(90deg);  }
+  83%      { -moz-transform: rotateX(90deg);                 }
+}
+
+#spinner {
+  -moz-animation-name: spincube;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 18s;
+  -moz-transform-style: preserve-3d;
+  -moz-transform-origin: 135px 135px 0;
+}
+
+
+
+
+.imagetext {
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #96E2C9;
+  font-size: 1em;
+  color:white; 
+  text-align: center;
+  width: 100px;
+  hover:black;
+}
+
+
+.imagetext2 {
+  border-radius: 4px;
+
+
+  background-color: #96E2C9;
+  font-size: 1em;
+  color:white; 
+  text-align: center;
+  width: 150px;
+  height: 35px;
+  padding-top: 7px;
+  
+}
+
+
+
+.imageinlist {
+  padding-bottom:5px; 
+  padding-right:5px; 
+  padding-left:5px; 
+  width:100px;
+}
+
+
+/*levitation*/
+
+.dolls {
+
+  border: none;
+  font-size: 3em; 
+
+  font-family: 'Cabin Sketch', cursive;
+  color:#5ED1AB;
+
+  padding:20px;
+
+
+}
+
+
+.levitating {
+  bottom: 285px;
+  -webkit-animation-name: spaceboots;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin:50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+
+#carola {
+  position: relative;
+  -webkit-transition: all 1.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 1.3s ease-out;  /* Firefox 4-15 */
+  -o-transition: all 1.3s ease-out;  /* Opera 10.50–12.00 */
+  transition: all 1.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+
+
+}
+
+@-webkit-keyframes spaceboots {
+  0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.levitating {
+  bottom: 285px;
+  -moz-animation-name: spaceboots;
+  -moz-animation-duration: 0.8s;
+  -moz-transform-origin:50% 50%;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+
+#carola {
+  position: relative;
+  -moz-transition: all 1.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 1.3s ease-out;  /* Firefox 4-15 */
+  -o-transition: all 1.3s ease-out;  /* Opera 10.50–12.00 */
+  transition: all 1.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+
+
+
+}
+
+@-moz-keyframes spaceboots {
+  0% { -moz-transform: translate(2px, 1px) rotate(0deg); }
+  10% { -moz-transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { -moz-transform: translate(-3px, 0px) rotate(1deg); }
+  30% { -moz-transform: translate(0px, 2px) rotate(0deg); }
+  40% { -moz-transform: translate(1px, -1px) rotate(1deg); }
+  50% { -moz-transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { -moz-transform: translate(-3px, 1px) rotate(0deg); }
+  70% { -moz-transform: translate(2px, 1px) rotate(-1deg); }
+  80% { -moz-transform: translate(-1px, -1px) rotate(1deg); }
+  90% { -moz-transform: translate(2px, 2px) rotate(0deg); }
+  100% { -moz-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+
+
+
+#pil img {
+
+  width:90px;
+
+  
+}
+/*levitation done*/
+
+a {
+  color: #009E8E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #96E2C9;
+  text-decoration: none;
+}
+
+
+
+a.ex1:hover{
+  color:#009E8E;
+}
+
+
+
+.whiteback > a{
+  color: white;
+  text-decoration: none;
+}
+
+.whiteback > a:hover  {
+  color: #009E8E;
+  text-decoration: none;
+}
+
+
+
+.padtab2 {
+
+  padding-bottom:24px;
+
+  width: 150px;
+}
+
+
+
+.padtab1 {
+
+  padding-left:30px; 
+
+  padding-right: 30px; 
+  padding-bottom:24px;
+  width: 450px;
+}
+
+
+.padtab3 {
+
+  padding-left:30px; 
+  padding-right:30px; 
+  padding-bottom:15px; 
+  padding-top:10px;
+
+}
+
+.padtab10 {
+
+  padding-left:10px; 
+  padding-right:10px; 
+  padding-bottom:15px; 
+  padding-top:10px;
+ font-size:15px;"
+
+}
+
+
+.padtab4 {
+
+  padding-left:30px; 
+  padding-right:30px; 
+  padding-bottom:30px; 
+  padding-top:50px;
+
+
+}
+
+.padtab9 {
+
+  padding-left:10px; 
+  padding-right:10px; 
+  padding-bottom:20px; 
+  padding-top:20px;
+
+
+}
+
+
+
+.padtab5 {
+
+  list-style: none; 
+ padding-left:10px; 
+  padding-right:10px; 
+  padding-bottom:20px; 
+  padding-top:20px;
+
+
+}
+
+
+.padtab6 {
+
+  list-style: none; 
+  padding-left:10px; 
+
+  padding-right: 10px; 
+  padding-bottom:24px;
+
+}
+
+
+
+
+.padtab7 {
+
+  padding-left:10px; 
+
+  padding-right: 10px; 
+  padding-bottom:24px;
+  width: 450px;
+}
+
+
+
+
+
+.top50 {
+
+
+  padding-top:50px;
+
+}
+
+.top100 {
+
+
+  padding-top:100px;
+
+}
+
+.fcuk {
+
+  border:2px solid #96E2C9; 
+  border-radius:4px; 
+
+}
+
+.element{
+ margin-right:  -15px;
+
+ 
+}
+
