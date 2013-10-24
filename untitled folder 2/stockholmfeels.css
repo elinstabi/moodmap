@@ -1,0 +1,74 @@
+.img-container { 
+	
+	margin:50px auto; 
+	width:600px;
+	height:600px;
+	-webkit-box-shadow: 0px 0px 5px #CCC;
+	box-shadow: 0px 0px 5px #CCC;
+	padding:3px;
+	border-radius:10px;
+}
+.img-back { 
+	width:600px;
+	height:600px;
+	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#FFFF00), to(#FF00FF));
+	background-image: -webkit-linear-gradient(bottom right, #666 0%, #ccc 100%);
+	background-image: -moz-linear-gradient(bottom right, #666 0%, #ccc 100%);
+	background-image: -o-linear-gradient(bottom right, #666 0%, #ccc 100%);
+	background-image: linear-gradient(bottom right, #666 0%, #ccc 100%);
+	position:relative;
+	padding:0;
+
+	}
+.img-fill3 { 
+	background-color:#FFFF00; 
+
+	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#0ca961), to(#4CC417));
+	background-image: -webkit-linear-gradient(bottom right, #0ca961 0%, #4CC417 100%);
+	background-image: -moz-linear-gradient(bottom right, #0ca961 0%, #4CC417 100%);
+	background-image: -o-linear-gradient(bottom right, #0ca961 0%, #4CC417 100%);
+	background-image: linear-gradient(bottom right, #0ca961 0%, #4CC417 100%);
+
+	height:0px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	bottom:0;
+
+}
+.img-fill2 { 
+	background-color:#FFFF00; 
+
+	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#FF0000), to(#FF0000));
+	background-image: -webkit-linear-gradient(bottom right, #FFA500 0%, #FF0000 100%);
+	background-image: -moz-linear-gradient(bottom right, #FFA500 0%, #FF0000 100%);
+	background-image: -o-linear-gradient(bottom right, #bada55 0%, #FF0000 100%);
+	background-image: linear-gradient(bottom right, #bada55 0%, #FF0000 100%);
+
+	height:0px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	bottom:0;
+
+}
+.img-fill { 
+	background-color:#0000A0; 
+
+	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#0000A0), to(#3090C7));
+	background-image: -webkit-linear-gradient(bottom right, #0000A0 0%, #3090C7 100%);
+	background-image: -moz-linear-gradient(bottom right, #0000A0 0%, #3090C7 100%);
+	background-image: -o-linear-gradient(bottom right, #bada55 0%, #1569C7 100%);
+	background-image: linear-gradient(bottom right, #bada55 0%, #0000FF 100%);
+
+	height:0px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	b
+
+}
+.img-mask { 
+	z-index:1;
+	position:absolute;
+}
