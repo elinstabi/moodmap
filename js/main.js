@@ -24,7 +24,7 @@ var url = "https://free-ec2.scraperwiki.com/fjcd5da/990c960250d8438/sql/?q=selec
         var str = "";
 
         for ( var i = 0; i < data.length; i++ ) {
-            str = "<div class='row'>" + data[i].text + "</div>";
+            str = "<div class='row tweet'><div class='showTweet'><p class='theTweet'>" + data[i].text + "</p></div></div>";
             $("#sad").append(str);
 
         }
@@ -54,8 +54,8 @@ var url = "https://free-ec2.scraperwiki.com/de7lnby/b99fed7dbeb8415/sql/?q=selec
         var str = "";
 
         for ( var i = 0; i < data.length; i++ ) {
-            str = "<div class='row'>" + data[i].text + "</div>";
-            $("#tweet_feedback").append(str);
+            str = "<div class='fuck' style='color:blue;'>" + data[i].text + "</div>";
+            $"<div class='fuck' style='color:blue;'>"("#tweet_feedback").append(str)"</div>";
 
         }
     }
@@ -90,7 +90,11 @@ var url = "https://free-ec2.scraperwiki.com/bniepoa/e1fc798cefed4f1/sql/?q=selec
         }
     }
 
-
+    $('.showTweet').hover(function(){
+        $(this).parent().children('.theTweet').show();
+    }, function(){
+        $(this).parent().children('.theTweet').hide();
+    })
 
 }); 
 
